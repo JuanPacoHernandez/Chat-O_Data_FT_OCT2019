@@ -1,0 +1,242 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hola",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "adios",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Cual es el clima en Berlin",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Holiii",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Que hay",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Que onda",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Que pasion",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Como estas",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "chao",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "nos vemos",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "hasta pronto",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "nos vemos luego",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Como sera el clima hoy",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Como esta el tiempo en Londres",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Londres",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Dime el tiempo en Paris",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Esta soleado en Ironhack",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "Ironhack",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Como esta el tiempo",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Dime si hara frio",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Como esta el clima en Barcelona ",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Mi primo vive en Londres, hara sol",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "Londres",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Me gusta Amsterdam hace sol?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Muestrame el clima en Dublin, por favor",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "en Ironhack",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Ironhack",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ironhack",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Ironhack",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "temperatura en Ciudad de Mexico",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "Ciudad de Mexico",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "clima en la Ciudad",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "Ciudad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "llovera en Mexico",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Mexico",
+            "entity": "location"
+          }
+        ]
+      }
+    ]
+  }
+}

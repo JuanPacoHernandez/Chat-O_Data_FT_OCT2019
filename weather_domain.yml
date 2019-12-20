@@ -1,0 +1,35 @@
+slots:
+  location:
+    type: text
+intents:
+  - greet
+  - goodbye
+  - inform
+entities:
+  - location
+
+templates:
+  utter_greet:
+    - "Hola, como te ayudo?"
+    - "Que ondon?"
+    - "Como se encuentra usted?"
+    - "Que pasion, cristo?"
+    - "Pero que passsssaaaa?"
+  utter_goodbye:
+    - "Vale, cuidate"
+    - "Ya estas, peinado pa atras"
+    - "Hasta luego"
+    - "Nos vemos"
+    - "Adios"
+  utter_ask_location:
+    - "Claro! En que parte?"
+    - "Va que va! En donde?"
+    - "Que lugar?"
+    - "Podrias decirme algo especificamente?"
+    - "Aun no me dices donde"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_location
+  - actions.ActionWeather

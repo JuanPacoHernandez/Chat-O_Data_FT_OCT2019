@@ -1,0 +1,43 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- action_weather
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- actions.ActionWeather
+config:
+  store_entities_as_slots: true
+entities:
+- location
+intents:
+- greet
+- goodbye
+- inform
+slots:
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_location:
+  - text: Claro! En que parte?
+  - text: Va que va! En donde?
+  - text: Que lugar?
+  - text: Podrias decirme algo especificamente?
+  - text: Aun no me dices donde
+  utter_goodbye:
+  - text: Vale, cuidate
+  - text: Ya estas, peinado pa atras
+  - text: Hasta luego
+  - text: Nos vemos
+  - text: Adios
+  utter_greet:
+  - text: Hola, como te ayudo?
+  - text: Que ondon?
+  - text: Como se encuentra usted?
+  - text: Que pasion, cristo?
+  - text: Pero que passsssaaaa?
+topics: []
