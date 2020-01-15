@@ -7,6 +7,8 @@
 
 
 -It's very important to install this requirements, because that file contains the version who were tested for Ubuntu 18.04:
+
+
 ###rasa_nlu
 gevent==1.2.1
 Klein==17.2.0
@@ -21,7 +23,7 @@ tqdm==4.11.2
 numpy==1.13.3
 simplejson==3.11.1
 
-### Sklearn
+###SkLearn
 spacy==1.8.2
 scikit-learn==0.19.1
 sklearn-crfsuite==0.3.5
